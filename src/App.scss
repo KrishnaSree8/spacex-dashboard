@@ -164,7 +164,7 @@ section{
 		.launch-description {
 			text-align: center;
 			font-size: 1.2rem;
-			color: grey;
+			color: rgba(231, 231, 231, 0.596);
 			letter-spacing: 0.2px;
 			margin: 0.5rem 1rem;
 			//text-decoration: underline;
@@ -200,29 +200,13 @@ section{
 			min-width: 80px !important;
 			font-size: 0.7rem;
 			text-transform: uppercase;
-			color: rgba(75, 75, 75, 0.835);
+			color: rgba(255, 255, 255, 0.835);
 			font-weight: 300;
 			letter-spacing: 1px;
 			padding: 7px;
 			background-color: rgba(231, 231, 231, 0.596);
 			margin-right: 7px;
 		}
-	}
-
-
-.global_container{
-	width:100%;;
-	height:800px;
-	overflow:hidden;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMxNDNhN2EiIHN0b3Atb3BhY2l0eT0iMC4xOSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiMwMDAxMDEiIHN0b3Atb3BhY2l0eT0iMC4yMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-radial-gradient(center, ellipse cover,  rgba(20,58,122,0.19) 0%, rgba(0,1,1,0.21) 99%, rgba(0,0,0,0.21) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(20,58,122,0.19)), color-stop(99%,rgba(0,1,1,0.21)), color-stop(100%,rgba(0,0,0,0.21)));
-	background: -webkit-radial-gradient(center, ellipse cover,  rgba(20,58,122,0.19) 0%,rgba(0,1,1,0.21) 99%,rgba(0,0,0,0.21) 100%);
-	background: -o-radial-gradient(center, ellipse cover,  rgba(20,58,122,0.19) 0%,rgba(0,1,1,0.21) 99%,rgba(0,0,0,0.21) 100%);
-	background: -ms-radial-gradient(center, ellipse cover,  rgba(20,58,122,0.19) 0%,rgba(0,1,1,0.21) 99%,rgba(0,0,0,0.21) 100%);
-	background: radial-gradient(ellipse at center,  rgba(20,58,122,0.19) 0%,rgba(0,1,1,0.21) 99%,rgba(0,0,0,0.21) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30143a7a', endColorstr='#36000000',GradientType=1 );
-	
 	}
 
 	.table-container{
@@ -232,17 +216,18 @@ section{
 
 	.table-heading-small {
 		width: 140px !important;
+		background-color: #070d0e;
+	}
+	
+	tbody tr {
+		cursor: pointer;
+		// background-color:#070d0e;
 		background: rgba(7, 13, 14, 0.58);
 		border-radius: 16px;
 		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 		backdrop-filter: blur(9.1px);
 		-webkit-backdrop-filter: blur(9.1px);
 		border: 1px solid rgba(7, 13, 14, 0.46);
-	}
-	
-	tbody tr {
-		cursor: pointer;
-		background-color:#070d0e;
 		transition: transform 0.4s !important;
 		&:hover {
 			transform: scale(1.03) !important;
@@ -318,11 +303,6 @@ section{
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		/* From https://css.glass */
-	}
-	.options-container{
-		// margin-top: 30 !important;
-		//background:'white' !important;
 	}
 
 	.main-container{
