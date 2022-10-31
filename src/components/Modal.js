@@ -30,12 +30,12 @@ function Modal({ modalStatus, handleClose, launch }) {
 					maxHeight: "600px",
 					padding: "0px !important",
 					margin: "0 auto",
-					background: 'rgba(255, 255, 255, 0.06)',
+					background:' rgba(7, 13, 14, 0.46)',
 					borderRadius: 16,
-					boxShadow:' 0 4px 30px rgba(0, 0, 0, 0.1)',
-					backdropFilter: 'blur(5.7px)',
-					'-webkit-backdrop-filter':' blur(5.7px)',
-					border: '1px solid rgba(255, 255, 255, 0.3)',
+					boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+					backdropFilter: 'blur(5px)',
+					'-webkit-backdrop-filter':' blur(5px)',
+					border: '1px solid rgba(7, 13, 14, 0.3)'
 				},
 			}}
 			isOpen={modalStatus}
@@ -49,12 +49,12 @@ function Modal({ modalStatus, handleClose, launch }) {
 					<button onClick={handleClose}>X</button>
 				</div>
 				<div className="row">
-					<div className="col-1">
+					{/* <div className="col-1">
 						<img
 							src={launch.links.mission_patch}
 							alt={launch.mission_name}
 						/>
-					</div>
+					</div> */}
 					<div className="col">
 						<h2>
 							<span className="field-name">Mission</span>
