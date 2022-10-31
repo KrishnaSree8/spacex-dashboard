@@ -34,7 +34,7 @@ body{
     height: 100%;
     margin: 0 0 0 0;
     background: #070d0e;
-	background-image: url("./data/bg.jpg");
+	background-image: url("./data/falcon-TA.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: left center;
@@ -251,7 +251,7 @@ section{
 		transition: transform 0.4s !important;
 		&:hover {
 			transform: scale(1.03) !important;
-			background-color: rgb(255, 255, 255);
+			background-color: #070d0e;
 			border: 1px solid rgb(105, 105, 105);
 			box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.10196);
 		}
@@ -306,13 +306,23 @@ section{
 		display: block !important;
 		flex-wrap: wrap;
 	}
+
+	.glass-bg{
+		margin: 30px 120px;
+		background: rgba(7, 13, 14, 0.46);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		border: 1px solid rgba(7, 13, 14, 0.3);
+	}
 	
 	.filters-container {
 		margin-top: 30px;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: center;
 		/* From https://css.glass */
 	}
 	.options-container{

@@ -68,6 +68,7 @@ function Dashboard( props ) {
 	return (
 		<div >
 			<div className="options-container">
+				<div className="glass-bg">
 				<div className="filters-container">
 					<div>
 						<FilterByTimeline
@@ -87,6 +88,7 @@ function Dashboard( props ) {
 						setEndDate={setEndDate}
 					/>
 
+				</div>
 				</div>
 			</div>
 			
