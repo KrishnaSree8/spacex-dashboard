@@ -209,6 +209,8 @@ section{
 		}
 	}
 
+
+
 	.table-container{
 		margin: auto;
 		width: '80%' !important
@@ -302,7 +304,7 @@ section{
 		margin-bottom: 30px;
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
 
 	.main-container{
@@ -310,7 +312,7 @@ section{
 	}
 	
 	.date-filter {
-		width: 40%;
+		// width: 40%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;

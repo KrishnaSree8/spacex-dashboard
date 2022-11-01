@@ -30,7 +30,7 @@ export default function Dropdown(props) {
       <FormControl className={classes.formControl}>
       <InputLabel id="demo-simple-select-label">{props.title}</InputLabel>
             <Select
-                style={{color:'#0e5c69'}}
+                style={{color:'#0e5c69', width: 170}}
                 labelId="demo-simple-select-label"
                 id="demo-simple-select-filled"
                 value={props.value}
